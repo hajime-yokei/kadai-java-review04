@@ -11,9 +11,6 @@ public class Human extends Animal implements Thinkable {
         this.hobby = hobby;
     }
 
-    public Human() {
-    }
-
     public Human(String name, int age, String hobby) {
         super(name, age);
         this.hobby = hobby;
